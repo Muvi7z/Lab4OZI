@@ -164,7 +164,7 @@ public class Main {
                 String text=in.nextLine();
                 System.out.print("Введите ключ:");
                 String key = in.nextLine();
-                System.out.println(Encryption.encryptBiteSum("будь","7182")); ///TODO
+                System.out.println(Encryption.encryptBiteSum(text,key));
                 break;
             }
         }
